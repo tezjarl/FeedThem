@@ -6,7 +6,7 @@ namespace FeedThem.Models
 {
     public class User
     {
-        public User(string login, string password, int age=null, Gender sex =Gender.Unspecified )
+        public User(string login, string password, int? age=null, Gender sex =Gender.Unspecified )
         {
             this.Login = login;
             this.Password = password;

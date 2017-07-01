@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FeedThem.Controllers
 {
     /// <summary>
     /// File controller. Used for work with files in file storage
     /// </summary>
-    public class FileController: ApiController
+    public class FileController: Controller
     {
         public FileController()
         {
